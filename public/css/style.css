@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+.background{
+    width: 605px;
+    height: 189px;
+    background-image: url('../img/base-assinatura.jpg');
+    background-repeat: no-repeat;
+}
+.logo{
+    width: 278px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.dados{
+    margin-left: 49%;
+    margin-top: -145px;
+    color: #4a4a4a;
+    align-items: center
+}   
+.nome {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: -3px;
+}
+.cargo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.telefone, .endereco{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 17px;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+.endereco{
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+.nome_empresa{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.traco{
+    background-color: #acc90b;
+    height: 1px;
+    width: 50px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    float: left;
+    color: #acc90b;
+}
+.lista{
+    margin-left: 49%;
+    position: relative;
+}
+.icon{
+    width: 15px;
+}
+.lista p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    float: right;
+    margin-left: -2px;
+    margin-bottom: -4px;
+    margin-top: 4px;
+    word-wrap: normal;
+}
+ul{
+    margin: 0;
+    padding: 0px;
+}
+li{
+    display: inline-block;
+}
+ul li img{
+    margin-top: 0px;
+}
+.verde{
+    color: #95aa1e;
+}
+.vermelho{
+    color: #e30613;
+}
+.btn{
+    transition: color 0.5s ease-in-out;
+}
