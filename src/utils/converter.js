@@ -3,8 +3,8 @@ const router = express.Router();
 require('request');
 const request = require('request-promise');
 
-const API_ID = '7ae8aab5-fcbe-43fc-afc1-66c360679d5e';
-const API_KEY = 'b1ea7797-9c86-49bd-a751-5437a631384a';
+const API_ID = 'put your id here';
+const API_KEY = 'put your key here';
 
 module.exports = {
     async convert(name, sector, role, extension) {
